@@ -1735,7 +1735,7 @@ This is the same as the C standard library.
 \pnum
 A translation unit shall include a header only outside of any
 \indextext{unit!translation}%
-declaration or definition and,
+declaration and,
 in the case of a module unit,
 only in its \grammarterm{global-module-fragment}, and
 shall include the header or import the corresponding header unit lexically
@@ -3009,7 +3009,7 @@ installation of handler functions during execution\iref{handler.functions}.
 
 \pnum
 Unless otherwise specified,
-the behavior of a \Cpp{} program is undefined if it adds declarations or definitions to namespace
+the behavior of a \Cpp{} program is undefined if it adds declarations to namespace
 \tcode{std}
 or to a namespace within namespace
 \tcode{std}.
@@ -3132,7 +3132,7 @@ A translation unit shall not declare namespace \tcode{std} to be an inline names
 \rSec4[namespace.posix]{Namespace \tcode{posix}}
 
 \pnum
-The behavior of a \Cpp{} program is undefined if it adds declarations or definitions to namespace
+The behavior of a \Cpp{} program is undefined if it adds declarations to namespace
 \tcode{posix}
 or to a namespace within namespace
 \tcode{posix}
@@ -3146,7 +3146,7 @@ Top-level namespaces whose \grammarterm{namespace-name} consists of \tcode{std}
 followed by one or more \grammarterm{digit}{s}\iref{lex.name}
 are reserved for future standardization.
 The behavior of a \Cpp{} program is undefined if
-it adds declarations or definitions to such a namespace.
+it adds declarations to such a namespace.
 \begin{example}
 The top-level namespace \tcode{std2} is reserved
 for use by future revisions of this International Standard.
